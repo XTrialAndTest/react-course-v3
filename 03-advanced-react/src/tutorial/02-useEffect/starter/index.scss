@@ -1,0 +1,47 @@
+.container {
+  border: 1px solid red;
+  //   background-color: pink;
+  .form {
+    // background-color: pink;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: 50%;
+      margin: 0 auto;
+      padding: 0.8rem 1rem;
+      font-size: 1.5rem;
+    }
+
+    label {
+      margin: 0 1rem;
+    }
+    input {
+      //   display: inline-block;
+      margin: 1rem;
+      width: 100%;
+      height: 2rem;
+    }
+  }
+  .display {
+    .header {
+      background-color: pink;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      h3 {
+      }
+    }
+    .personCard {
+      background-color: pink;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .name {
+    }
+    .email {
+    }
+    .password {
+    }
+  }
+}
